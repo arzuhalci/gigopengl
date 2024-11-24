@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Users/sinan/Desktop/gig_opengl/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/hello_window.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_window.dir\\src\\config.cpp.obj -c C:\\Users\\sinan\\Desktop\\gig_opengl\\src\\config.cpp",
+  "file": "C:/Users/sinan/Desktop/gig_opengl/src/config.cpp",
+  "output": "CMakeFiles/hello_window.dir/src/config.cpp.obj"
+},
+{
+  "directory": "C:/Users/sinan/Desktop/gig_opengl/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/hello_window.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_window.dir\\src\\main.cpp.obj -c C:\\Users\\sinan\\Desktop\\gig_opengl\\src\\main.cpp",
   "file": "C:/Users/sinan/Desktop/gig_opengl/src/main.cpp",
   "output": "CMakeFiles/hello_window.dir/src/main.cpp.obj"
@@ -10,6 +16,18 @@
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/hello_window.dir/includes_C.rsp -g -o CMakeFiles\\hello_window.dir\\src\\glad.c.obj -c C:\\Users\\sinan\\Desktop\\gig_opengl\\src\\glad.c",
   "file": "C:/Users/sinan/Desktop/gig_opengl/src/glad.c",
   "output": "CMakeFiles/hello_window.dir/src/glad.c.obj"
+},
+{
+  "directory": "C:/Users/sinan/Desktop/gig_opengl/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/hello_window.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_window.dir\\src\\triangle_mesh.cpp.obj -c C:\\Users\\sinan\\Desktop\\gig_opengl\\src\\triangle_mesh.cpp",
+  "file": "C:/Users/sinan/Desktop/gig_opengl/src/triangle_mesh.cpp",
+  "output": "CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj"
+},
+{
+  "directory": "C:/Users/sinan/Desktop/gig_opengl/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/hello_window.dir/includes_CXX.rsp -g -o CMakeFiles\\hello_window.dir\\src\\material.cpp.obj -c C:\\Users\\sinan\\Desktop\\gig_opengl\\src\\material.cpp",
+  "file": "C:/Users/sinan/Desktop/gig_opengl/src/material.cpp",
+  "output": "CMakeFiles/hello_window.dir/src/material.cpp.obj"
 },
 {
   "directory": "C:/Users/sinan/Desktop/gig_opengl/build/dependencies/glfw-3.4/src",

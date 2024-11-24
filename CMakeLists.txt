@@ -6,9 +6,13 @@ find_package(OpenGL REQUIRED)
 add_subdirectory(dependencies/glfw-3.4)
 
 add_executable(hello_window 
-               src/config.h 
+               src/config.h
+               src/config.cpp 
                src/main.cpp 
-               src/glad.c)
+               src/glad.c
+               src/triangle_mesh.h
+               src/triangle_mesh.cpp
+               src/material.cpp)
 
 target_include_directories(hello_window PRIVATE dependencies)
 

@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/sinan/Desktop/gig_opengl/src/glad.c" "CMakeFiles/hello_window.dir/src/glad.c.obj" "gcc" "CMakeFiles/hello_window.dir/src/glad.c.obj.d"
+  "C:/Users/sinan/Desktop/gig_opengl/src/config.cpp" "CMakeFiles/hello_window.dir/src/config.cpp.obj" "gcc" "CMakeFiles/hello_window.dir/src/config.cpp.obj.d"
   "C:/Users/sinan/Desktop/gig_opengl/src/main.cpp" "CMakeFiles/hello_window.dir/src/main.cpp.obj" "gcc" "CMakeFiles/hello_window.dir/src/main.cpp.obj.d"
+  "C:/Users/sinan/Desktop/gig_opengl/src/material.cpp" "CMakeFiles/hello_window.dir/src/material.cpp.obj" "gcc" "CMakeFiles/hello_window.dir/src/material.cpp.obj.d"
+  "C:/Users/sinan/Desktop/gig_opengl/src/triangle_mesh.cpp" "CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj" "gcc" "CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

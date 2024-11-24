@@ -1,5 +1,5 @@
-CMakeFiles/hello_window.dir/src/main.cpp.obj: \
- C:\Users\sinan\Desktop\gig_opengl\src\main.cpp \
+CMakeFiles/hello_window.dir/src/config.cpp.obj: \
+ C:\Users\sinan\Desktop\gig_opengl\src\config.cpp \
  C:\Users\sinan\Desktop\gig_opengl\src\config.h \
  C:/Users/sinan/Desktop/gig_opengl/dependencies/glad/glad.h \
  C:/Users/sinan/Desktop/gig_opengl/dependencies/KHR/khrplatform.h \
@@ -117,5 +117,10 @@ CMakeFiles/hello_window.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.h \
- C:\Users\sinan\Desktop\gig_opengl\src\material.h
+ C:\Users\sinan\Desktop\gig_opengl\src\stb_image.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
+ c:\mingw\include\string.h c:\mingw\include\strings.h \
+ c:\mingw\include\wchar.h c:\mingw\include\limits.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\math.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
+ c:\mingw\include\assert.h

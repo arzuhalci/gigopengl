@@ -1,5 +1,6 @@
-CMakeFiles/hello_window.dir/src/main.cpp.obj: \
- C:\Users\sinan\Desktop\gig_opengl\src\main.cpp \
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj: \
+ C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.cpp \
+ C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.h \
  C:\Users\sinan\Desktop\gig_opengl\src\config.h \
  C:/Users/sinan/Desktop/gig_opengl/dependencies/glad/glad.h \
  C:/Users/sinan/Desktop/gig_opengl/dependencies/KHR/khrplatform.h \
@@ -116,6 +117,4 @@ CMakeFiles/hello_window.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++io.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.h \
- C:\Users\sinan\Desktop\gig_opengl\src\material.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc

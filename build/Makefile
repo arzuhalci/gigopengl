@@ -212,6 +212,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f dependencies\glfw-3.4\src\CMakeFiles\update_mappings.dir\build.make dependencies/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+src/config.obj: src/config.cpp.obj
+.PHONY : src/config.obj
+
+# target to build an object file
+src/config.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/config.cpp.obj
+.PHONY : src/config.cpp.obj
+
+src/config.i: src/config.cpp.i
+.PHONY : src/config.i
+
+# target to preprocess a source file
+src/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/config.cpp.i
+.PHONY : src/config.cpp.i
+
+src/config.s: src/config.cpp.s
+.PHONY : src/config.s
+
+# target to generate assembly for a file
+src/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/config.cpp.s
+.PHONY : src/config.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -260,6 +284,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/material.obj: src/material.cpp.obj
+.PHONY : src/material.obj
+
+# target to build an object file
+src/material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/material.cpp.obj
+.PHONY : src/material.cpp.obj
+
+src/material.i: src/material.cpp.i
+.PHONY : src/material.i
+
+# target to preprocess a source file
+src/material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/material.cpp.i
+.PHONY : src/material.cpp.i
+
+src/material.s: src/material.cpp.s
+.PHONY : src/material.s
+
+# target to generate assembly for a file
+src/material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/material.cpp.s
+.PHONY : src/material.cpp.s
+
+src/triangle_mesh.obj: src/triangle_mesh.cpp.obj
+.PHONY : src/triangle_mesh.obj
+
+# target to build an object file
+src/triangle_mesh.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj
+.PHONY : src/triangle_mesh.cpp.obj
+
+src/triangle_mesh.i: src/triangle_mesh.cpp.i
+.PHONY : src/triangle_mesh.i
+
+# target to preprocess a source file
+src/triangle_mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.i
+.PHONY : src/triangle_mesh.cpp.i
+
+src/triangle_mesh.s: src/triangle_mesh.cpp.s
+.PHONY : src/triangle_mesh.s
+
+# target to generate assembly for a file
+src/triangle_mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_window.dir\build.make CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s
+.PHONY : src/triangle_mesh.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -276,12 +348,21 @@ help:
 	@echo ... update_mappings
 	@echo ... glfw
 	@echo ... hello_window
+	@echo ... src/config.obj
+	@echo ... src/config.i
+	@echo ... src/config.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/material.obj
+	@echo ... src/material.i
+	@echo ... src/material.s
+	@echo ... src/triangle_mesh.obj
+	@echo ... src/triangle_mesh.i
+	@echo ... src/triangle_mesh.s
 .PHONY : help
 
 

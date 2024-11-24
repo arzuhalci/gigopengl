@@ -68,11 +68,26 @@ include CMakeFiles/hello_window.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello_window.dir/flags.make
 
+CMakeFiles/hello_window.dir/src/config.cpp.obj: CMakeFiles/hello_window.dir/flags.make
+CMakeFiles/hello_window.dir/src/config.cpp.obj: CMakeFiles/hello_window.dir/includes_CXX.rsp
+CMakeFiles/hello_window.dir/src/config.cpp.obj: C:/Users/sinan/Desktop/gig_opengl/src/config.cpp
+CMakeFiles/hello_window.dir/src/config.cpp.obj: CMakeFiles/hello_window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_window.dir/src/config.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/config.cpp.obj -MF CMakeFiles\hello_window.dir\src\config.cpp.obj.d -o CMakeFiles\hello_window.dir\src\config.cpp.obj -c C:\Users\sinan\Desktop\gig_opengl\src\config.cpp
+
+CMakeFiles/hello_window.dir/src/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_window.dir/src/config.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinan\Desktop\gig_opengl\src\config.cpp > CMakeFiles\hello_window.dir\src\config.cpp.i
+
+CMakeFiles/hello_window.dir/src/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/config.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinan\Desktop\gig_opengl\src\config.cpp -o CMakeFiles\hello_window.dir\src\config.cpp.s
+
 CMakeFiles/hello_window.dir/src/main.cpp.obj: CMakeFiles/hello_window.dir/flags.make
 CMakeFiles/hello_window.dir/src/main.cpp.obj: CMakeFiles/hello_window.dir/includes_CXX.rsp
 CMakeFiles/hello_window.dir/src/main.cpp.obj: C:/Users/sinan/Desktop/gig_opengl/src/main.cpp
 CMakeFiles/hello_window.dir/src/main.cpp.obj: CMakeFiles/hello_window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_window.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello_window.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/main.cpp.obj -MF CMakeFiles\hello_window.dir\src\main.cpp.obj.d -o CMakeFiles\hello_window.dir\src\main.cpp.obj -c C:\Users\sinan\Desktop\gig_opengl\src\main.cpp
 
 CMakeFiles/hello_window.dir/src/main.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/hello_window.dir/src/glad.c.obj: CMakeFiles/hello_window.dir/flags.ma
 CMakeFiles/hello_window.dir/src/glad.c.obj: CMakeFiles/hello_window.dir/includes_C.rsp
 CMakeFiles/hello_window.dir/src/glad.c.obj: C:/Users/sinan/Desktop/gig_opengl/src/glad.c
 CMakeFiles/hello_window.dir/src/glad.c.obj: CMakeFiles/hello_window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hello_window.dir/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hello_window.dir/src/glad.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/glad.c.obj -MF CMakeFiles\hello_window.dir\src\glad.c.obj.d -o CMakeFiles\hello_window.dir\src\glad.c.obj -c C:\Users\sinan\Desktop\gig_opengl\src\glad.c
 
 CMakeFiles/hello_window.dir/src/glad.c.i: cmake_force
@@ -98,22 +113,58 @@ CMakeFiles/hello_window.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hello_window.dir/src/glad.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\sinan\Desktop\gig_opengl\src\glad.c -o CMakeFiles\hello_window.dir\src\glad.c.s
 
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj: CMakeFiles/hello_window.dir/flags.make
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj: CMakeFiles/hello_window.dir/includes_CXX.rsp
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj: C:/Users/sinan/Desktop/gig_opengl/src/triangle_mesh.cpp
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj: CMakeFiles/hello_window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj -MF CMakeFiles\hello_window.dir\src\triangle_mesh.cpp.obj.d -o CMakeFiles\hello_window.dir\src\triangle_mesh.cpp.obj -c C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.cpp
+
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.cpp > CMakeFiles\hello_window.dir\src\triangle_mesh.cpp.i
+
+CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinan\Desktop\gig_opengl\src\triangle_mesh.cpp -o CMakeFiles\hello_window.dir\src\triangle_mesh.cpp.s
+
+CMakeFiles/hello_window.dir/src/material.cpp.obj: CMakeFiles/hello_window.dir/flags.make
+CMakeFiles/hello_window.dir/src/material.cpp.obj: CMakeFiles/hello_window.dir/includes_CXX.rsp
+CMakeFiles/hello_window.dir/src/material.cpp.obj: C:/Users/sinan/Desktop/gig_opengl/src/material.cpp
+CMakeFiles/hello_window.dir/src/material.cpp.obj: CMakeFiles/hello_window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hello_window.dir/src/material.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/material.cpp.obj -MF CMakeFiles\hello_window.dir\src\material.cpp.obj.d -o CMakeFiles\hello_window.dir\src\material.cpp.obj -c C:\Users\sinan\Desktop\gig_opengl\src\material.cpp
+
+CMakeFiles/hello_window.dir/src/material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_window.dir/src/material.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sinan\Desktop\gig_opengl\src\material.cpp > CMakeFiles\hello_window.dir\src\material.cpp.i
+
+CMakeFiles/hello_window.dir/src/material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/material.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sinan\Desktop\gig_opengl\src\material.cpp -o CMakeFiles\hello_window.dir\src\material.cpp.s
+
 # Object files for target hello_window
 hello_window_OBJECTS = \
+"CMakeFiles/hello_window.dir/src/config.cpp.obj" \
 "CMakeFiles/hello_window.dir/src/main.cpp.obj" \
-"CMakeFiles/hello_window.dir/src/glad.c.obj"
+"CMakeFiles/hello_window.dir/src/glad.c.obj" \
+"CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj" \
+"CMakeFiles/hello_window.dir/src/material.cpp.obj"
 
 # External object files for target hello_window
 hello_window_EXTERNAL_OBJECTS =
 
+hello_window.exe: CMakeFiles/hello_window.dir/src/config.cpp.obj
 hello_window.exe: CMakeFiles/hello_window.dir/src/main.cpp.obj
 hello_window.exe: CMakeFiles/hello_window.dir/src/glad.c.obj
+hello_window.exe: CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.obj
+hello_window.exe: CMakeFiles/hello_window.dir/src/material.cpp.obj
 hello_window.exe: CMakeFiles/hello_window.dir/build.make
 hello_window.exe: dependencies/glfw-3.4/src/libglfw3.a
 hello_window.exe: CMakeFiles/hello_window.dir/linkLibs.rsp
 hello_window.exe: CMakeFiles/hello_window.dir/objects1.rsp
 hello_window.exe: CMakeFiles/hello_window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hello_window.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\sinan\Desktop\gig_opengl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hello_window.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hello_window.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
